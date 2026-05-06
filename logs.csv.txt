@@ -1,0 +1,8 @@
+logs.csv
+ip,timestamp,method,endpoint,status
+192.168.1.1,10:30,GET,/login,200
+192.168.1.2,10:32,POST,/login,401
+192.168.1.1,10:33,GET,/dashboard,200
+192.168.1.3,10:35,GET,/admin,403
+192.168.1.2,10:36,POST,/login,401
+192.168.1.2,10:37,POST,/login,401
